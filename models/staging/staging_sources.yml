@@ -1,0 +1,14 @@
+version: 2
+sources:
+
+- name: weather_data
+  schema: endless_horizons
+  tables:
+    - name: weather_hourly_raw
+
+- name: flights_data
+  schema: endless_horizons
+  tables:
+    - name: flights
+    - name: airports
+    - name: regions
