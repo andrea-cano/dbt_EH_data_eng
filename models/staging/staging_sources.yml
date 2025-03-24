@@ -7,6 +7,11 @@ sources:
     - name: weather_hourly_raw
     - name: weather_daily_raw
 
+- name: weather_data_t
+  schema: endless_horizons
+  tables:
+    - name: weather_daily_raw_t
+
 - name: flights_data
   schema: endless_horizons
   tables:
