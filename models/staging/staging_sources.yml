@@ -13,3 +13,10 @@ sources:
     - name: flights
     - name: airports
     - name: regions
+
+- name: flights_data_t
+  schema: endless_horizons
+  tables:
+    - name: flights_t
+    - name: airports
+    - name: regions
